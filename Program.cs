@@ -43,9 +43,12 @@ namespace EjerciciosconClases
 
         public Banco()
         {
-            cliente1 = new Cliente("Yhonas");
-            cliente2 = new Cliente("Ana");
-            cliente3 = new Cliente("Pedro");
+            Console.WriteLine("cliente 1");
+            cliente1 = new Cliente(Console.ReadLine());
+            Console.WriteLine("cliente 2");
+            cliente2 = new Cliente(Console.ReadLine());
+            Console.WriteLine("cliente 3");
+            cliente3 = new Cliente(Console.ReadLine());
         }
 
         public void Operar()
