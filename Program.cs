@@ -43,6 +43,7 @@ namespace EjerciciosconClases
 
         public Banco()
         {
+            //modifico para que el programa tome los nombres que yo deseo poner
             Console.WriteLine("cliente 1");
             cliente1 = new Cliente(Console.ReadLine());
             Console.WriteLine("cliente 2");
